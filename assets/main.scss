@@ -12,3 +12,43 @@ body, button{
     background-color: #ffffff;
     line-height: 1.7;
   }
+
+.top-container{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.header-logo{
+  max-width: 200px;
+}
+
+.site-title{
+  display: block;
+}
+
+.site-header{
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.site-nav{
+  float: none;
+  text-align: center;
+}
+
+.site-nav .page-link{
+  color: #3e3e3e;
+}
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
